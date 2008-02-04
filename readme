@@ -1,0 +1,58 @@
+Hide SMF Version
+by Motoko-chan
+
+
+About
+-----
+This modification provides a way to toggle display of the SMF version you are
+running. It has been tested to support 1.1.0 and newer.
+
+This mod and other information can be found at:
+http://www.animeneko.net/projects/smf/
+
+
+Features
+--------
+ - Hide the version of SMF you are using from non-Administrators
+
+
+How to Use
+----------
+You can find the setting by going to:
+Admin -> Features and Options -> Basic Features
+
+
+License
+-------
+This code is licensed under the terms of the Simple Machines License. SMF code
+used in this mod is copyright Simple Machines LLC. All original code is
+copyright Michael Johnson.
+
+Rant
+----
+Not normal for my README, but this one deserves it.
+
+This mod is in response to the many people asking for a way to hide the version
+of SMF they are running. Many are mistaken in that it will help them avoid
+attacks. This is incorrect. Most "hackers" nowadays are nothing more than
+bored script kiddies that run packs to try anything and everything and see what
+sticks. It doesn't matter if you aren't running on Windows, or you don't have
+Joomla!, Drupal, or phpBB installed as the scripts will try attacks for those
+things anyway.
+
+Regardless, people constantly complain about the need to hide the version from
+public view. This mod was created so they can do this safely while still being
+able to see important updates in the admin area.
+
+
+Acknowledgements
+----------------
+"SMF" and "Simple Machines" are trademarks of Simple Machines LLC.
+
+
+Version History
+---------------
+See CHANGELOG
+
+
+Doc Revision 20071231

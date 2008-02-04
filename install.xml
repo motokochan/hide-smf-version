@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>motokochan:hidesmfversion</id>
+
+	<file name="$boarddir/index.php">
+		<operation>
+			<search position="before"><![CDATA[
+	// Load the user's cookie (or set as guest) and load their settings.
+	loadUserSettings();
+]]></search>
+			<add><![CDATA[
+
+	//If the user isn't an admin, then hide the version'
+	if(!$user_info['is_admin'] && !empty($modSettings['hideVersion']) && $modSettings['hideVersion'])
+	$GLOBALS['forum_version'] = 'SMF';
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$sourcedir/ModSettings.php">
+		<operation>
+			<search position="before"><![CDATA[
+			array('check', 'securityDisable'),
+]]></search>
+			<add><![CDATA[
+			array('check', 'hideVersion'),
+]]></add>
+		</operation>
+	</file>
+
+</modification>

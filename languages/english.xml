@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>motokochan:hidesmfversion</id>
+
+	<file name="$languagedir/Modifications.english.php">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Hide SMF Version
+$txt['hideVersion'] = 'Hide SMF version from normal users';
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$languagedir/Modifications.english-utf8.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Hide SMF Version
+$txt['hideVersion'] = 'Hide SMF version from normal users';
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$languagedir/Modifications.english_british.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Hide SMF Version
+$txt['hideVersion'] = 'Hide SMF version from normal users';
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$languagedir/Modifications.english_british-utf8.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Hide SMF Version
+$txt['hideVersion'] = 'Hide SMF version from normal users';
+]]></add>
+		</operation>
+	</file>
+</modification>
