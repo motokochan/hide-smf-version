@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>motokochan:hidesmfversion</id>
+
+	<file name="$languagedir/Modifications.turkish.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+
+//Hide SMF Version - Translation by Hoochie Coochie Man
+$txt['hideVersion'] = 'SMF versiyonunu sakla.';
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$languagedir/Modifications.turkish-utf8.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+
+//Hide SMF Version - Translation by Hoochie Coochie Man
+$txt['hideVersion'] = 'SMF versiyonunu sakla.';
+]]></add>
+		</operation>
+	</file>
+
+</modification>
