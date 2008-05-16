@@ -3,9 +3,9 @@
 <package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
 	<id>motokochan:hidesmfversion</id>
 	<name>Hide SMF Version</name>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<type>modification</type>
-	<install for="1.1.0,1.1.1,1.1.2,1.1.3,1.1.4">
+	<install for="1.1.0,1.1.1,1.1.2,1.1.3,1.1.4, 1.1.5">
 		<readme>README</readme>
 		<modification>install.xml</modification>
 		<modification>languages/english.xml</modification>
@@ -20,7 +20,7 @@
 	<install>
 		<readme type="inline">This package doesn't appear to support your SMF version.</readme>
 	</install>
-	<uninstall for="1.1.0,1.1.1,1.1.2,1.1.3,1.1.4">
+	<uninstall for="1.1.0,1.1.1,1.1.2,1.1.3,1.1.4,1.1.5">
 		<modification reverse="true">install.xml</modification>
 		<modification reverse="true">languages/english.xml</modification>
 		<modification reverse="true">languages/turkish.xml</modification>
