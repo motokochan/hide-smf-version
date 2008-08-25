@@ -10,12 +10,14 @@
 		<modification>install.xml</modification>
 		<modification>languages/english.xml</modification>
 		<modification>languages/turkish.xml</modification>
+		<modification>languages/italian.xml</modification>
 	</install>
-	<install for="2.0 Beta 3, 2.0 Beta 3 Public, 2.0 Beta 3.1 Public">
+	<install for="2.0 Beta 3, 2.0 Beta 3 Public, 2.0 Beta 3.1 Public, 2.0 Beta 4">
 		<readme>README</readme>
 		<modification>install-20.xml</modification>
 		<modification>languages/english.xml</modification>
 		<modification>languages/turkish.xml</modification>
+		<modification>languages/italian.xml</modification>
 	</install>
 	<install>
 		<readme type="inline">This package doesn't appear to support your SMF version.</readme>
@@ -24,10 +26,12 @@
 		<modification reverse="true">install.xml</modification>
 		<modification reverse="true">languages/english.xml</modification>
 		<modification reverse="true">languages/turkish.xml</modification>
+		<modification reverse="true">languages/italian.xml</modification>
 	</uninstall>
-	<uninstall for="2.0 Beta 3, 2.0 Beta 3 Public, 2.0 Beta 3.1 Public">
+	<uninstall for="2.0 Beta 3, 2.0 Beta 3 Public, 2.0 Beta 3.1 Public, 2.0 Beta 4">
 		<modification reverse="true">install-20.xml</modification>
 		<modification reverse="true">languages/english.xml</modification>
 		<modification reverse="true">languages/turkish.xml</modification>
+		<modification reverse="true">languages/italian.xml</modification>
 	</uninstall>
 </package-info>
