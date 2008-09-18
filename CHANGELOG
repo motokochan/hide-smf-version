@@ -1,5 +1,14 @@
 Changelog:
 
+2008-09-17
+ - Version 1.0.3a
+ - Updated to support all 1.1 sub-versions. It doesn't look like there will be
+   major changes in the affected area.
+
+2008-08-25
+ - Version 1.0.3
+ - Updated to support 2.0 Beta 4
+
 2008-07-19
  - Version 1.0.2a
  - Updated installer to support 2.0 Beta 3.1
