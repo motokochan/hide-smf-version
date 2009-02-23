@@ -1,5 +1,9 @@
 Changelog:
 
+2009-02-19:
+ - Version 1.0.3b
+ - Updated to install directly on 2.0 RC1
+
 2008-09-17
  - Version 1.0.3a
  - Updated to support all 1.1 sub-versions. It doesn't look like there will be
