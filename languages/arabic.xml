@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>motokochan:hidesmfversion</id>
+
+	<file name="$languagedir/Modifications.arabic.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+
+//Hide SMF Version (Translation Courtesy islam2hamy)
+$txt['hideVersion'] = 'ÅÎÝÇÁ ÑÞã ÅÕÏÇÑ äÓÎÉ ÇáãäÊÏì Úä ÇáÇÚÖÇÁ æ ÇáÖíæÝ';
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$languagedir/Modifications.arabic-utf8.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+
+//Hide SMF Version (Translation Courtesy islam2hamy)
+$txt['hideVersion'] = 'إخفاء رقم إصدار نسخة المنتدى عن الاعضاء و الضيوف';
+]]></add>
+		</operation>
+	</file>
+</modification>

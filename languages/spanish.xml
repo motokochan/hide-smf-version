@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>motokochan:hidesmfversion</id>
+
+	<file name="$languagedir/Modifications.spanish_latin.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+
+//Hide SMF Version (Translation courtesy chifliiiii)
+$txt['hideVersion'] = 'Ocultar la versión de SMF a los usuarios normales ';
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$languagedir/Modifications.spanish_latin-utf8.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+
+//Hide SMF Version (Translation courtesy chifliiiii)
+$txt['hideVersion'] = 'Ocultar la versión de SMF a los usuarios normales ';
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$languagedir/Modifications.spanish_es.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+
+//Hide SMF Version (Translation courtesy chifliiiii)
+$txt['hideVersion'] = 'Ocultar la versión de SMF a los usuarios normales ';
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$languagedir/Modifications.spanish_es-utf8.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+
+//Hide SMF Version (Translation courtesy chifliiiii)
+$txt['hideVersion'] = 'Ocultar la versión de SMF a los usuarios normales ';
+]]></add>
+		</operation>
+	</file>
+</modification>
