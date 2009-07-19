@@ -19,7 +19,12 @@ Features
 How to Use
 ----------
 You can find the setting by going to:
+
+SMF 1.1:
 Admin -> Features and Options -> Basic Features
+
+SMF 2.0:
+Admin -> Configuration -> Security & Moderation -> General
 
 
 License
@@ -55,4 +60,4 @@ Version History
 See CHANGELOG
 
 
-Doc Revision 20071231
+Doc Revision 20090719
