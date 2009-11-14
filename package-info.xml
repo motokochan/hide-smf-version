@@ -3,7 +3,7 @@
 <package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
 	<id>motokochan:hidesmfversion</id>
 	<name>Hide SMF Version</name>
-	<version>1.0.4</version>
+	<version>1.0.5</version>
 	<type>modification</type>
 	<install for="1.1.*">
 		<readme>README</readme>
@@ -14,7 +14,7 @@
 		<modification>languages/spanish.xml</modification>
 		<modification>languages/arabic.xml</modification>
 	</install>
-	<install for="2.0 Beta 3, 2.0 Beta 3 Public, 2.0 Beta 3.1 Public, 2.0 Beta 4, 2.0 RC1, 2.0 RC1-1, 2.0 RC1.2">
+	<install for="2.0 RC2">
 		<readme>README</readme>
 		<modification>install-20.xml</modification>
 		<modification>languages/english.xml</modification>
@@ -34,7 +34,7 @@
 		<modification reverse="true">languages/spanish.xml</modification>
 		<modification reverse="true">languages/arabic.xml</modification>
 	</uninstall>
-	<uninstall for="2.0 Beta 3, 2.0 Beta 3 Public, 2.0 Beta 3.1 Public, 2.0 Beta 4, 2.0 RC1, 2.0 RC1-1, 2.0 RC1.2">
+	<uninstall for="2.0 RC2">
 		<modification reverse="true">install-20.xml</modification>
 		<modification reverse="true">languages/english.xml</modification>
 		<modification reverse="true">languages/turkish.xml</modification>

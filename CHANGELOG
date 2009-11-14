@@ -1,5 +1,9 @@
 Changelog:
 
+2009-11-14:
+ - Version 1.0.5
+ - Dropped support for 2.0 pre-release versions older than RC2
+
 2009-07-19:
  - Version 1.0.4
  - Updated to indicate support for 2.0 RC1.2
