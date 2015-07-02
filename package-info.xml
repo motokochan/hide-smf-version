@@ -6,7 +6,7 @@
 	<version>1.0.6b</version>
 	<type>modification</type>
 	<install for="2.0*">
-		<readme>README</readme>
+		<readme>README.md</readme>
 		<modification>install.xml</modification>
 		<modification>languages/english.xml</modification>
 		<modification>languages/turkish.xml</modification>
