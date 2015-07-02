@@ -5,15 +5,6 @@
 	<name>Hide SMF Version</name>
 	<version>1.0.6a</version>
 	<type>modification</type>
-	<install for="1.1.*">
-		<readme>README</readme>
-		<modification>install.xml</modification>
-		<modification>languages/english.xml</modification>
-		<modification>languages/turkish.xml</modification>
-		<modification>languages/italian.xml</modification>
-		<modification>languages/spanish.xml</modification>
-		<modification>languages/arabic.xml</modification>
-	</install>
 	<install for="2.0*">
 		<readme>README</readme>
 		<modification>install-20.xml</modification>
@@ -26,14 +17,6 @@
 	<install>
 		<readme type="inline">This package doesn't appear to support your SMF version.</readme>
 	</install>
-	<uninstall for="1.1.*">
-		<modification reverse="true">install.xml</modification>
-		<modification reverse="true">languages/english.xml</modification>
-		<modification reverse="true">languages/turkish.xml</modification>
-		<modification reverse="true">languages/italian.xml</modification>
-		<modification reverse="true">languages/spanish.xml</modification>
-		<modification reverse="true">languages/arabic.xml</modification>
-	</uninstall>
 	<uninstall for="2.0*">
 		<modification reverse="true">install-20.xml</modification>
 		<modification reverse="true">languages/english.xml</modification>
